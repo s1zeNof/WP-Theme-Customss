@@ -1,0 +1,39 @@
+#app_screens {
+    padding-top: 140px;
+    display: flex;
+    
+    .all_screens_content {
+        width: 100%;
+    }
+}
+/*
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+*/
+
+.carousel-item {
+    
+    img {
+        width: 867px;
+        height: auto;
+        @media screen and(max-width:1002px) {
+            width: 100% !important;
+            height: auto;
+            
+        }
+    }
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none !important;
+}
+/*
+.carousel-indicators  {
+    li {
+        border-radius: 50%;
+    }
+    
+  }*/

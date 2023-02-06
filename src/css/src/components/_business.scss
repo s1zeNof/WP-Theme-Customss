@@ -1,0 +1,46 @@
+#business_goals {
+    display: flex;
+    padding-top: 181px;
+
+    .business_content {
+
+        .business_steps {
+            display: flex;            
+            
+            gap: 60px;
+            
+            color: #000;
+            @media screen and(max-width:1070px) {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            @media screen and (max-width:1028px) {
+                display: flex;
+                
+                align-content: center;
+                flex-wrap: wrap;
+            }
+            h4 {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                @media screen and (max-width:1028px) {
+                    text-align: center;
+                }   
+            }
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                @media screen and (max-width:1028px) {
+                    text-align: center;
+                }
+            }
+            
+            img {
+                padding-bottom: 18px;
+            }
+        }
+    }
+}

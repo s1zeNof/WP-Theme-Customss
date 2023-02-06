@@ -1,0 +1,97 @@
+#contact_form {
+    display: flex;
+    padding-top: 136px;
+    padding-bottom: 136px;
+    .content {
+    
+        @media screen and (max-width: 1125px) {
+            display: flex;
+            flex-wrap: wrap;    
+            padding: 0px 25px 0px 25px;
+        }
+    }
+    .form_description {
+        width: 100%;
+        padding-left: 107px;
+        padding-top: 149px;
+        @media screen and (max-width: 1025px) {
+            padding: 0;
+        }
+        @media screen and(max-width:536px) {
+            width: 100% !important;
+        }
+        
+        h3 {
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 64px;
+            color: #000;
+
+            padding-bottom: 32px;
+            @media screen and(max-width:1028px) {
+                text-align: center;
+            }
+        }        
+    }
+
+    .form_background {
+        padding-bottom: 136px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        @media screen and (max-width: 1200px) {
+            padding: 0;
+        }
+        img {
+                
+            @media screen and (max-width: 1200px) {
+                width: 80%;
+                height: auto;
+            }
+        }
+    }
+}
+
+.wpcf7-form-control-wrap 
+input[type="email"],
+.wpcf7-form-control-wrap input[type="text"],
+.wpcf7-form-control-wrap input[type="tel"],
+.wpcf7-form-control-wrap textarea
+{
+    width: 486px;
+    height: 45px;
+    background: #F9F9F9;
+    border: 0;
+    
+    color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    @media screen and(max-width:536px) {
+        width: 100% !important;
+    }
+}
+
+
+    
+input[type="submit"]
+{
+
+    width: 486px !important;
+    height: 55px;
+    background: #8C30F5;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    @media screen and(max-width:486px) {
+        width: 100% !important;
+    }
+}
+
+
